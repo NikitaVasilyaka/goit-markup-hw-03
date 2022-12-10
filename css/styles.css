@@ -1,7 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #2e2f42;
     background: #ffffff;
+    display: block;
+}
+
+
+
+
+
+
+/*---------- Header ----------*/
+
+
+.header {
+    
+}
+
+
+.header-container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -13,7 +40,6 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-
 
 .web-logo {
     color: #4d5ae5;
@@ -31,12 +57,20 @@ body {
     color: #4D5AE5;
 }
 
+.header-list {
+    display: flex;
+}
+
 .comm-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none; 
+}
+.comm-list {
+    display: flex;
+    margin-left: auto;
 }
 
 .link:hover,
@@ -46,15 +80,20 @@ body {
 
 .list {
     list-style: none
-    
 }
 
 .link {
     text-decoration: none
 }
 
+
+/*---------- HERO ----------*/
 .hero {
     background-color: #2E2F42;;
+}
+
+.hero-container {
+
 }
 
 .hero-title {
@@ -62,6 +101,8 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
+    margin: auto;
 }
 
 .hero-button {
@@ -71,6 +112,13 @@ body {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    text-align: center;
+    margin: auto;
+}
+
+.button-container {
+    text-align: center;
+    margin: auto;
 }
 
 .hero-button:hover {
@@ -83,6 +131,18 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+/*---------- Section-one ----------*/
+
+.section-one-container {
+    width: 1158px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section-one-list {
+    display: flex;
+    
+}
 
 .section-one-title {
     font-weight: 600;
@@ -100,6 +160,21 @@ body {
     color: #434455;
 }
 
+/*---------- Section-two ----------*/
+
+.section-two-container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.section-two-container > .list {
+    display: flex;
+}
+
+.section-two-img {
+    margin-right: 20px;
+}
+
 .section-two-title {
     font-weight: 500;
     font-size: 36px;
@@ -109,9 +184,22 @@ body {
     text-transform: capitalize;
 }
 
+/*---------- Section-three ----------*/
+
 .section-three {
-background: #F4F4FD;
+    background: #F4F4FD;
 }
+
+.section-three-container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
+.section-three-container > .list {
+    display: flex;
+}
+
+
 
 .section-three-title {
     font-weight: 500;
@@ -127,7 +215,10 @@ background: #F4F4FD;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    margin-right: 20px;
 }
+
+/*---------- footer ----------*/
 
 .footer {
 background: #2E2F42;
@@ -140,6 +231,8 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 
+/*---------- footer-logo ----------*/
+
 .footer-logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -150,6 +243,8 @@ color: #E7E9FC;
     text-decoration: none;
     color: #F4F4FD;
 }
+
+/*---------- Filter ----------*/
 
 .filter-button {
     font-family: inherit;
@@ -170,6 +265,8 @@ color: #E7E9FC;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+/*---------- Cards ----------*/
 
 .cards {
     margin-bottom: 120px;
