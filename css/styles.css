@@ -19,7 +19,7 @@ body {
 
 
 .header {
-    
+
 }
 
 
@@ -89,7 +89,7 @@ body {
 
 /*---------- HERO ----------*/
 .hero {
-    background-color: #2E2F42;;
+    background-color: #2E2F42;
 }
 
 .hero-container {
@@ -137,6 +137,7 @@ body {
     width: 1158px;
     margin: 0 auto;
     display: flex;
+    
 }
 
 .section-one-list {
