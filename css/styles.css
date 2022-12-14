@@ -64,6 +64,7 @@ img {
 
 .header-link {
     font-size: 16px;
+    font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: inherit;
@@ -90,7 +91,7 @@ img {
 }
 
 .comm-list .item {
-padding-right: 40px;
+    padding-right: 40px;
 }
 .comm-list .item:last-child {
     padding-right: 0;
@@ -161,7 +162,7 @@ padding-right: 40px;
     border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 58px;
+    margin-top: 96px;
 }
 
 .hero-button:hover {
@@ -176,13 +177,17 @@ padding-right: 40px;
 
 /*---------- Section-one ----------*/
 
-.section-one-container {
+.section-one {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     display: flex;
-    padding-top: 84px;
-    padding-bottom: 84px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-one-container {
+
 }
 
 
@@ -207,7 +212,6 @@ padding-right: 40px;
     color: #2E2F42;
     text-transform: capitalize;
     margin-bottom: 16px;
-
 }
 
 .section-one-text {
@@ -219,17 +223,19 @@ padding-right: 40px;
 
 /*---------- Section-two ----------*/
 
-.section-two-container {
+.section-two {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 120px;    
+}
+
+.section-two-container {
+    
 }
 
 .section-two-container > .list {
     display: flex;
-    margin-bottom: 119px;
 }
 
 .section-two-img {
@@ -253,6 +259,8 @@ padding-right: 40px;
 /*---------- Section-three ----------*/
 
 .section-three {
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: #F4F4FD;
 }
 
@@ -260,8 +268,6 @@ padding-right: 40px;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    padding-top: 115px;
-    padding-bottom: 88px;
 }
 
 .section-three-container 
@@ -293,8 +299,8 @@ padding-right: 40px;
 
 .member-text {
     text-align: center;
-    padding-top: 32px;
-    padding-bottom: 16px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -312,17 +318,15 @@ padding-right: 40px;
 
 
 .footer {
-background: #2E2F42;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #2E2F42;
 }
 
 .footer-container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-
 }
 
 .footer-text {
@@ -395,7 +399,6 @@ width: 264px;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    padding-top: 96px;
 }
 
 
