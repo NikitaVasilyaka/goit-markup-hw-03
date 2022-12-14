@@ -127,12 +127,12 @@ img {
 /*---------- HERO ----------*/
 .hero {
     background-color: #2E2F42;
-    padding-top: 192px;
-    padding-bottom: 192px;
+
 }
 
 .hero-container {
-
+    padding-top: 192px;
+    padding-bottom: 192px;
 }
 
 .hero-title {
@@ -162,7 +162,7 @@ img {
     border: 1px solid transparent;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 96px;
+    margin-top: 48px;
 }
 
 .hero-button:hover {
@@ -178,16 +178,15 @@ img {
 /*---------- Section-one ----------*/
 
 .section-one {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
     display: flex;
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
 .section-one-container {
-
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 
@@ -224,17 +223,17 @@ img {
 /*---------- Section-two ----------*/
 
 .section-two {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
     padding-bottom: 120px;    
 }
 
 .section-two-container {
-    
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-.section-two-container > .list {
+.section-two-container
+.list {
     display: flex;
 }
 
@@ -293,8 +292,6 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     margin-right: 24px;
-    padding-bottom: 28px;
-    margin-bottom: 36px
 }
 
 .member-text {
